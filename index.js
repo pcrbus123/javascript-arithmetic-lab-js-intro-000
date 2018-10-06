@@ -1,5 +1,6 @@
-var number=5
-function add5(){number+=5}
-function subtract(){number-=5}
-function multiply(){number*=5}
-function divide(){number/=5}
+function add(a,b){return a+=b}
+function subtract(a,b){a-=b}
+function multiply(a,b){a*=b}
+function divide(a,b){a/=b}
+
+
