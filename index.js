@@ -2,9 +2,8 @@ function add(a,b){return a+=b}
 function subtract(a,b){return a-=b}
 function multiply(a,b){return a*=b}
 function divide(a,b){return a/=b}
-function inc(n){
-  var n = 0;
-  n++;
-  return n;
+var number=5
+function inc(number){
+  return number++
 }
 function dec(n){return --number}
